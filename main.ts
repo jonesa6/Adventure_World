@@ -27,17 +27,24 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Bat, function (sprite, otherSpri
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile72`, function (sprite, location) {
     mySprite.setKind(SpriteKind.wait)
-    timer.after(5000, function () {
+    timer.after(1000, function () {
         mySprite.setKind(SpriteKind.Player)
     })
     timer.after(500, function () {
-        tileUtil.replaceAllTiles(assets.tile`myTile65`, assets.tile`myTile69`)
-        tileUtil.replaceAllTiles(assets.tile`myTile70`, assets.tile`myTile67`)
+        tileUtil.replaceAllTiles(assets.tile`myTile65`, assets.tile`myTile77`)
         tileUtil.replaceAllTiles(assets.tile`myTile72`, assets.tile`myTile73`)
+        timer.after(500, function () {
+            tileUtil.replaceAllTiles(assets.tile`myTile70`, assets.tile`myTile67`)
+        })
         tileUtil.replaceAllTiles(assets.tile`myTile71`, assets.tile`myTile74`)
-        tileUtil.replaceAllTiles(assets.tile`myTile75`, assets.tile`myTile76`)
+        timer.after(500, function () {
+            tileUtil.replaceAllTiles(assets.tile`myTile75`, assets.tile`myTile76`)
+        })
         tileUtil.setWalls(assets.tile`myTile67`, true)
         tileUtil.setWalls(assets.tile`myTile76`, true)
+        timer.after(500, function () {
+            tileUtil.replaceAllTiles(assets.tile`myTile77`, assets.tile`myTile69`)
+        })
     })
 })
 controller.player3.onButtonEvent(ControllerButton.B, ControllerButtonEvent.Pressed, function () {
@@ -314,17 +321,24 @@ controller.player2.onButtonEvent(ControllerButton.Down, ControllerButtonEvent.Pr
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile73`, function (sprite, location) {
     mySprite.setKind(SpriteKind.wait)
-    timer.after(5000, function () {
+    timer.after(1000, function () {
         mySprite.setKind(SpriteKind.Player)
     })
     timer.after(500, function () {
         tileUtil.replaceAllTiles(assets.tile`myTile73`, assets.tile`myTile72`)
-        tileUtil.replaceAllTiles(assets.tile`myTile69`, assets.tile`myTile65`)
-        tileUtil.replaceAllTiles(assets.tile`myTile67`, assets.tile`myTile70`)
+        tileUtil.replaceAllTiles(assets.tile`myTile69`, assets.tile`myTile77`)
+        timer.after(500, function () {
+            tileUtil.replaceAllTiles(assets.tile`myTile67`, assets.tile`myTile70`)
+        })
         tileUtil.replaceAllTiles(assets.tile`myTile74`, assets.tile`myTile71`)
-        tileUtil.replaceAllTiles(assets.tile`myTile76`, assets.tile`myTile75`)
+        timer.after(500, function () {
+            tileUtil.replaceAllTiles(assets.tile`myTile76`, assets.tile`myTile75`)
+        })
         tileUtil.setWalls(assets.tile`myTile75`, false)
         tileUtil.setWalls(assets.tile`myTile70`, true)
+        timer.after(500, function () {
+            tileUtil.replaceAllTiles(assets.tile`myTile77`, assets.tile`myTile65`)
+        })
     })
 })
 controller.player4.onButtonEvent(ControllerButton.Down, ControllerButtonEvent.Pressed, function () {

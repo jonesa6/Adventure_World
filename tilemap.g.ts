@@ -153,15 +153,17 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const tile76 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const tile72 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
-    export const tile77 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const tile78 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile79 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile80 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile81 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile77 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile72 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -1369,7 +1371,7 @@ namespace myTiles {
 ...............................................................................................................................................................................................................................................................
 ...............................................................................................................................................................................................................................................................
 ...............................................................................................................................................................................................................................................................
-`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile4,myTiles.tile27,myTiles.tile28,myTiles.tile29,myTiles.tile30,myTiles.tile31,myTiles.tile32,myTiles.tile33,myTiles.tile34,myTiles.tile35,myTiles.tile36,myTiles.tile37,myTiles.tile38,myTiles.tile19,myTiles.tile20,myTiles.tile21,myTiles.tile22,myTiles.tile23,myTiles.tile25,myTiles.tile26,myTiles.tile39,myTiles.tile40,myTiles.tile41,myTiles.tile42,myTiles.tile44,myTiles.tile67,myTiles.tile72,myTiles.tile74,myTiles.tile76,myTiles.tile77,myTiles.tile79,myTiles.tile80], TileScale.Sixteen);
+`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile4,myTiles.tile27,myTiles.tile28,myTiles.tile29,myTiles.tile30,myTiles.tile31,myTiles.tile32,myTiles.tile33,myTiles.tile34,myTiles.tile35,myTiles.tile36,myTiles.tile37,myTiles.tile38,myTiles.tile19,myTiles.tile20,myTiles.tile21,myTiles.tile22,myTiles.tile23,myTiles.tile25,myTiles.tile26,myTiles.tile39,myTiles.tile40,myTiles.tile41,myTiles.tile42,myTiles.tile44,myTiles.tile67,myTiles.tile72,myTiles.tile74,myTiles.tile76,myTiles.tile77], TileScale.Sixteen);
         }
         return null;
     })
@@ -1527,16 +1529,18 @@ namespace myTiles {
             case "tile75":return tile75;
             case "myTile74":
             case "tile76":return tile76;
-            case "myTile70":
-            case "tile72":return tile72;
-            case "myTile75":
-            case "tile77":return tile77;
             case "myTile76":
             case "tile78":return tile78;
             case "delayer off":
             case "tile79":return tile79;
             case "delayer on":
             case "tile80":return tile80;
+            case "myTile77":
+            case "tile81":return tile81;
+            case "myTile75":
+            case "tile77":return tile77;
+            case "myTile70":
+            case "tile72":return tile72;
         }
         return null;
     })

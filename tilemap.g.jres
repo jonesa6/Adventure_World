@@ -454,18 +454,6 @@
         "tilemapTile": true,
         "displayName": "myTile74"
     },
-    "tile72": {
-        "data": "hwQQABAAAACqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqg==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile70"
-    },
-    "tile77": {
-        "data": "hwQQABAAAADu7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7g==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile75"
-    },
     "tile78": {
         "data": "hwQQABAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiA==",
         "mimeType": "image/x-mkcd-f4",
@@ -483,6 +471,24 @@
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
         "displayName": "delayer on"
+    },
+    "tile81": {
+        "data": "hwQQABAAAADu7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7t3d3d3d3d3d7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u3d3d3d3d3d3u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7d3d3d3d3d3e7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7g==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile77"
+    },
+    "tile77": {
+        "data": "hwQQABAAAAC7u7u7u7y7u7u7vLu7u7u7u7u7u7u7u7y7u7u7u7y7u7zLu8y7u7u7u7u7y7u7u7y7u7u7u7u7vLu7u7vLu7u7u7y7vLu7u7u7u7u8u7vLu7u7u7u7u8u7u7u7u7u7u7u7u7vLvLu8u7u7vLu7u7u7u7u7u7u7u7u7u7u7u7u7uw==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile75"
+    },
+    "tile72": {
+        "data": "hwQQABAAAADr7u7u7u7uvtvd3d3d3d296+7u7u7u7r6IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile70"
     },
     "level2": {
         "id": "level2",
@@ -774,9 +780,7 @@
             "myTiles.tile72",
             "myTiles.tile74",
             "myTiles.tile76",
-            "myTiles.tile77",
-            "myTiles.tile79",
-            "myTiles.tile80"
+            "myTiles.tile77"
         ],
         "displayName": "level1"
     },
